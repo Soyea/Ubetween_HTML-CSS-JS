@@ -1,0 +1,114 @@
+html,body{
+    background:#fff;
+}
+.app{
+    width: 1000px;
+    margin:auto;
+    min-height: 570px;
+    padding-bottom:60px;
+    position:relative;
+}
+/* login-header */
+    .app>.login-header{
+        margin:auto;
+        height: 150px;
+        border-bottom:2px solid #6A792E;
+    }
+    .app>.login-header>img{
+        height:60px;
+        margin-top:45px;
+    }
+    .app>.login-header>span{
+        float:right;
+        font-size:14px;
+        color:#6A792E;
+        height: 150px;
+        line-height:150px;
+    }
+    .app>.login-header>span>a{
+        color:#283105;
+        font-weight:bold;
+    }
+/* login-body */
+    .app>.login-body{
+        width: 800px;
+        margin:auto;
+    }
+    .app>.login-body>.login-form{
+        width: 500px;
+    }
+    .app>.login-body>.login-form>form{
+        font-size:14px;
+        width: 356px;
+    }
+    .app>.login-body>.login-form>form>a{
+        color:#153915;
+        float:right;
+    }
+    .app>.login-body>.login-form>form>.login-button{
+        width: 356px;
+        height:35px;
+        border:none;
+        background:#014D01;
+        color:whitesmoke;
+        margin-top:20px;
+        cursor:pointer;
+    }
+    .app>.login-body>.login-form>form>p{
+       padding-top:40px;
+       padding-bottom:40px; 
+       font-size:24px;
+       letter-spacing:10px;
+       color:#989811;
+    }
+    .app>.login-body>.login-form>form>div{
+        width: 350px;
+        height:50px;
+        line-height:50px;
+        padding-left:10px;
+        font-size:14px;
+        border:1px solid gray;
+    }
+    .app>.login-body>.login-form>form>div>input{
+        width: 266px;
+        height: 30px;
+        text-indent:1em;
+        outline:medium;
+        border:none;
+    }
+/* sub-footer */
+    .sub-footer{
+        width: 1000px;
+        margin:auto;
+        height:60px;
+        position: absolute;
+        left:0;
+        bottom:0;
+        color:lightslategray;
+        font-size: 12px;
+    }
+    .sub-footer>ul{
+        padding-top:10px;
+        padding-bottom:10px;
+        text-align:center;
+    }
+    .sub-footer>ul>li{
+        display:inline-block;
+        border-right:1px solid lightslategray;
+        height: 14px;
+        line-height:14px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .sub-footer>ul>li:last-child{
+        border:none;
+    }
+    .sub-footer>ul>li>a{
+        color:lightslategray;
+    }
+    .sub-footer>p{
+        text-align:center;
+    }
+    .sub-footer>p>a{
+        color:lightslategray;
+    }
